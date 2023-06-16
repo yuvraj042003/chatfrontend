@@ -1,0 +1,115 @@
+.JoinPage{
+    background-color: rgb(31,29,29);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.JoinContainer{
+    border: 2px solid white;
+    height: 90%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.JoinContainer>img{
+    width: 8vmax;
+    border-radius: 25%;
+    padding-top: 3vmax ;
+}
+.JoinContainer>h1{
+    color: white;
+    font-size: 2.5vmax;
+    font-family: "Roboto";
+    width: 30vmax;
+    border-bottom: 0.2vmax solid white;
+    text-align: center;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    box-sizing: border-box;
+}
+#JoinInput{
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 6.5vmax;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.joinbtn{
+    width: 25vmax;
+    padding: 1.2vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    background:crimson;
+    box-sizing: border-box;
+    color: white;
+    margin-bottom: 17vmax;
+    cursor: pointer;
+    font-family: "Roboto";
+    border-radius: 6px;
+}
+.joinbtn:hover{
+    background: rgb(113, 8, 29);
+}
+@media screen and (max-width: 620px) {
+    .JoinPage{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+    .JoinContainer{
+        border: 2px solid white;
+        height: 51%;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .JoinContainer>img{
+        width: 10vmax;
+        border-radius: 25%;
+        padding-top: 5vmax ;
+    }
+    .JoinContainer>h1{
+        color: white;
+        font-size: 3vmax;
+        font-family: "Roboto";
+        width: 30vmax;
+        border-bottom: 0.2vmax solid white;
+        text-align: center;
+        padding-top: 1vmax;
+        padding-bottom: 1vmax;
+        box-sizing: border-box;
+    }
+    #JoinInput{
+        width: 30vmax;
+        padding: 1.5vmax;
+        border: none;
+        outline: none;
+        font-size: 2vmax;
+        margin: 6.5vmax;
+        box-sizing: border-box;
+        border-radius: 2px;
+    }
+    .joinbtn{
+        width: 30vmax;
+        padding: 1.3vmax;
+        border: none;
+        outline: none;
+        font-size: 2vmax;
+        background:crimson;
+        box-sizing: border-box;
+        color: white;
+        margin-bottom: 100vmax;
+        cursor: pointer;
+        font-family: "Roboto";
+        border-radius: 6px;
+    }
+}
